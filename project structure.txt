@@ -1,0 +1,31 @@
+/stroke-prediction-project
+│── /backend
+│   │── /models
+│   │   ├── cnn_model.h5  # Trained CNN model for CT scan classification
+│   │   ├── random_forest.pkl  # Trained Random Forest model for statistical data
+│   │── /static  # Folder for serving static files if needed
+│   │── /uploads  # Stores uploaded images temporarily
+│   │── app.py  # Main Flask API handling predictions
+│   │── requirements.txt  # Python dependencies
+│   │── config.py  # Configuration settings (optional)
+│   │── utils.py  # Helper functions
+│   │── README.md  # Backend documentation
+│
+│── /frontend
+│   │── /public
+│   │   ├── index.html  # Base HTML file for React
+│   │   ├── favicon.ico  # Icon for the website
+│   │── /src
+│   │   │── /components
+│   │   │   ├── Home.js  # Main home page with user choice
+│   │   │   ├── UploadImage.js  # CT scan upload form
+│   │   │   ├── EnterData.js  # Statistical data input form
+│   │   │   ├── Result.js  # Displays prediction results
+│   │   │── App.js  # Main React App
+│   │   │── index.js  # Entry point for React app
+│   │   │── styles.css  # Global styling for the frontend
+│   │── package.json  # Frontend dependencies
+│   │── README.md  # Frontend documentation
+│
+│── README.md  # Overall project documentation
+│── setup.sh  # (Optional) Setup script to install dependencies and run the project

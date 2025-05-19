@@ -1,0 +1,36 @@
+.result-card {
+    max-width: 600px;
+    margin: auto;
+    padding: 20px;
+    background: #f8f6f6;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    text-align: center;
+    border-radius: 10px;
+  }
+  
+  .result-card h2 {
+    color: #333;
+  }
+  
+  .buttons {
+    margin-top: 20px;
+  }
+  
+  .btn {
+    margin: 10px;
+    padding: 10px 15px;
+    border: none;
+    background: #007bff;
+    color: white;
+    cursor: pointer;
+    border-radius: 5px;
+  }
+  
+  .btn-download {
+    background: #28a745;
+  }
+  
+  .btn:hover {
+    opacity: 0.8;
+  }
+  
